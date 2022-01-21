@@ -1,0 +1,696 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+.modal {
+  background-color: #274255;
+}
+
+.App-header {
+  background-color: #274255;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #274255;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+.MuiFormControl-root {
+  width: 100%;
+}
+#app_barvg {
+  background-color: #fff;
+  color: rgba(0, 0, 0, 0.87);
+  box-shadow: 0px 2px 4px -1px rgb(176 175 175 / 20%),
+    0px 4px 5px 0px rgb(241 241 241 / 14%),
+    0px 1px 10px 0px rgb(241 241 241 / 12%);
+}
+.card__header {
+  padding: 8px 16px 8px 16px;
+}
+.breadcrumbs__div {
+  margin: 14px 0 25px 0;
+}
+.card__header {
+  display: flex;
+  justify-content: space-between;
+}
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 40px;
+  background-color: #fff;
+  color: #979898;
+  padding: 0 11px;
+  height: 20px;
+}
+.header__flex {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+.BtnPrimary {
+  background-color: #274255 !important;
+  border-radius: 4px;
+  border: none;
+  color: #fff !important;
+  margin-right: 3px;
+}
+.MuiButton-contained {
+  box-shadow: rgb(50 50 93 / 15%) 0px 13px 27px -5px,
+    rgb(0 0 0 / 18%) 0px 8px 16px -8px !important;
+}
+.BtnSuccessrimary {
+  background-color: #317a24;
+  border-radius: 4px;
+  border: none;
+  color: #fff;
+  margin-right: 3px;
+}
+.BtnDanger {
+  background-color: #e73427;
+  border-radius: 4px;
+  border: none;
+  color: #fff;
+  margin-right: 3px;
+}
+/* .MuiAutocomplete-inputRoot[class*="MuiOutlinedInput-root"]{
+   padding: 2px !important;
+ } */
+.MuiTableCell-root {
+  padding: 8px !important;
+}
+.MuiSvgIcon-root {
+  padding: 3px !important;
+}
+/* .MuiCardContent-root:last-child {
+  padding-bottom: 0 !important;
+} */
+.MuiDropzoneArea-root {
+  min-height: 110px !important;
+}
+.MuiDropzoneArea-text {
+  margin-top: 12px !important;
+  margin-bottom: 9px !important;
+}
+.MuiTypography-h5 {
+  font-size: 15px !important;
+}
+.MuiAppBar-colorPrimary {
+  background-color: #fff !important;
+  border-bottom: 1px solid #e9ecef;
+  color: #212529 !important;
+  box-shadow: none !important;
+}
+.MuiFab-sizeSmall {
+  width: 35px !important;
+  height: 35px !important;
+}
+.tableBorder {
+  border: 1px solid #ccc;
+}
+.BtnroundBadge {
+  display: block;
+  height: 22px;
+  width: 22px;
+  border-radius: 30px;
+  background-color: #26801b;
+  color: white;
+  text-align: center;
+  font-size: 1em;
+}
+.badgeChipsBg {
+  background-color: #356384 !important;
+  color: #fff !important;
+}
+
+.iconStyle {
+  padding: 3px !important;
+}
+.MuiSkeleton-root {
+  background-color: rgb(68 66 66 / 11%) !important;
+}
+.textBold {
+  font-size: 16px !important;
+  font-weight: 500 !important;
+}
+
+.MuiDropzoneArea-textContainer {
+  padding: 21px !important;
+}
+
+.box_div {
+  height: 100%;
+  border: 1px solid #ddd;
+  padding: 20px;
+  text-align: center;
+  margin: 0 !important;
+  border-radius: 4px;
+  box-shadow: rgb(50 50 93 / 25%) 0px 50px 100px -20px,
+    rgb(0 0 0 / 30%) 0px 30px 60px -30px,
+    rgb(10 37 64 / 35%) 0px -2px 6px 0px inset;
+}
+
+.img_prof {
+  display: flex;
+  justify-content: center;
+}
+.MuiAvatar_custom {
+  width: 35px !important;
+  height: 35px !important;
+  margin: 0 15px 0 0;
+  box-shadow: rgb(36 35 35 / 10%) 0px 10px 50px !important;
+}
+.prof_Name {
+  margin-top: 9px !important;
+}
+.Btn_primary {
+  background-color: #586a88 !important;
+  color: #fff !important;
+}
+.Btn_primary:hover {
+  background-color: rgb(53 72 102) !important;
+}
+.CustomMuiGrid-spacing-xs-1 {
+  width: calc(100% + 8px);
+  margin: -4px;
+}
+
+/* new added css */
+.text_right {
+  text-align: right;
+}
+.MuiToolbar-regular {
+  min-height: 50px !important;
+}
+
+.BtnOutlinePrimary {
+  border-color: #274255 !important;
+  color: #274255 !important;
+}
+.MuiButton-outlined {
+  box-shadow: rgb(50 50 93 / 15%) 0px 13px 27px -5px,
+    rgb(0 0 0 / 18%) 0px 8px 16px -8px !important;
+}
+
+/* (1920x1080) */
+@media screen and (max-width: 1920px) {
+  .CustomMuiGrid-grid-lg-1 {
+    flex-grow: 0;
+    max-width: 6.24%;
+    flex-basis: 6.24%;
+  }
+  .CustomMuiGrid-grid-lg-2 {
+    flex-grow: 0;
+    max-width: 12.48%;
+    flex-basis: 12.48%;
+  }
+  .CustomMuiGrid-grid-lg-3 {
+    flex-grow: 0;
+    max-width: 18.72%;
+    flex-basis: 18.72%;
+  }
+  .CustomMuiGrid-grid-lg-4 {
+    flex-grow: 0;
+    max-width: 24.96%;
+    flex-basis: 24.96%;
+  }
+  .CustomMuiGrid-grid-lg-5 {
+    flex-grow: 0;
+    max-width: 31.2%;
+    flex-basis: 31.2%;
+  }
+  .CustomMuiGrid-grid-lg-6 {
+    flex-grow: 0;
+    max-width: 37.44%;
+    flex-basis: 37.44%;
+  }
+  .CustomMuiGrid-grid-lg-7 {
+    flex-grow: 0;
+    max-width: 43.68%;
+    flex-basis: 43.68%;
+  }
+  .CustomMuiGrid-grid-lg-8 {
+    flex-grow: 0;
+    max-width: 49.92%;
+    flex-basis: 49.92%;
+  }
+  .CustomMuiGrid-grid-lg-9 {
+    flex-grow: 0;
+    max-width: 56.16%;
+    flex-basis: 56.16%;
+  }
+  .CustomMuiGrid-grid-lg-10 {
+    flex-grow: 0;
+    max-width: 62.4%;
+    flex-basis: 62.4%;
+  }
+  .CustomMuiGrid-grid-lg-11 {
+    flex-grow: 0;
+    max-width: 68.64%;
+    flex-basis: 68.64%;
+  }
+  .CustomMuiGrid-grid-lg-12 {
+    flex-grow: 0;
+    max-width: 74.88%;
+    flex-basis: 74.88%;
+  }
+  .CustomMuiGrid-grid-lg-13 {
+    flex-grow: 0;
+    max-width: 81.12%;
+    flex-basis: 81.12%;
+  }
+  .CustomMuiGrid-grid-lg-14 {
+    flex-grow: 0;
+    max-width: 87.36%;
+    flex-basis: 87.36%;
+  }
+  .CustomMuiGrid-grid-lg-15 {
+    flex-grow: 0;
+    max-width: 93.6%;
+    flex-basis: 93.6%;
+  }
+}
+
+/* (1680x1050)  */
+@media screen and (max-width: 1680px) {
+  .CustomMuiGrid-grid-lg-1 {
+    flex-grow: 0;
+    max-width: 8.333333%;
+    flex-basis: 8.333333%;
+  }
+  .CustomMuiGrid-grid-lg-2 {
+    flex-grow: 0;
+    max-width: 16.666667%;
+    flex-basis: 16.666667%;
+  }
+  .CustomMuiGrid-grid-lg-3 {
+    flex-grow: 0;
+    max-width: 25%;
+    flex-basis: 25%;
+  }
+  .CustomMuiGrid-grid-lg-4 {
+    flex-grow: 0;
+    max-width: 33.333333%;
+    flex-basis: 33.333333%;
+  }
+  .CustomMuiGrid-grid-lg-5 {
+    flex-grow: 0;
+    max-width: 41.666667%;
+    flex-basis: 41.666667%;
+  }
+  .CustomMuiGrid-grid-lg-6 {
+    flex-grow: 0;
+    max-width: 50%;
+    flex-basis: 0 0 50%;
+  }
+  .CustomMuiGrid-grid-lg-7 {
+    flex-grow: 0;
+    max-width: 58.333333%;
+    flex-basis: 58.333333%;
+  }
+  .CustomMuiGrid-grid-lg-8 {
+    flex-grow: 0;
+    max-width: 66.666667%;
+    flex-basis: 66.666667%;
+  }
+  .CustomMuiGrid-grid-lg-9 {
+    flex-grow: 0;
+    max-width: 75%;
+    flex-basis: 75%;
+  }
+  .CustomMuiGrid-grid-lg-10 {
+    flex-grow: 0;
+    max-width: 83.333333%;
+    flex-basis: 83.333333%;
+  }
+  .CustomMuiGrid-grid-lg-11 {
+    flex-grow: 0;
+    max-width: 91.666667%;
+    flex-basis: 91.666667%;
+  }
+  .CustomMuiGrid-grid-lg-12 {
+    flex-grow: 0;
+    max-width: 100%;
+    flex-basis: 100%;
+  }
+  .CustomMuiGrid-grid-lg-13 {
+    flex-grow: 0;
+    max-width: 92.82%;
+    flex-basis: 92.82%;
+  }
+  .CustomMuiGrid-grid-lg-14 {
+    flex-grow: 0;
+    max-width: 99.96%;
+    flex-basis: 99.96%;
+  }
+}
+/* (1440x900)  */
+@media screen and (max-width: 1440px) {
+  .CustomMuiGrid-grid-lg-1 {
+    flex-grow: 0;
+    max-width: 8.333333%;
+    flex-basis: 8.333333%;
+  }
+  .CustomMuiGrid-grid-lg-2 {
+    flex-grow: 0;
+    max-width: 16.666667%;
+    flex-basis: 16.666667%;
+  }
+  .CustomMuiGrid-grid-lg-3 {
+    flex-grow: 0;
+    max-width: 25%;
+    flex-basis: 25%;
+  }
+  .CustomMuiGrid-grid-lg-4 {
+    flex-grow: 0;
+    max-width: 33.333333%;
+    flex-basis: 33.333333%;
+  }
+  .CustomMuiGrid-grid-lg-5 {
+    flex-grow: 0;
+    max-width: 41.666667%;
+    flex-basis: 41.666667%;
+  }
+  .CustomMuiGrid-grid-lg-6 {
+    flex-grow: 0;
+    max-width: 50%;
+    flex-basis: 0 0 50%;
+  }
+  .CustomMuiGrid-grid-lg-7 {
+    flex-grow: 0;
+    max-width: 58.333333%;
+    flex-basis: 58.333333%;
+  }
+  .CustomMuiGrid-grid-lg-8 {
+    flex-grow: 0;
+    max-width: 66.666667%;
+    flex-basis: 66.666667%;
+  }
+  .CustomMuiGrid-grid-lg-9 {
+    flex-grow: 0;
+    max-width: 75%;
+    flex-basis: 75%;
+  }
+  .CustomMuiGrid-grid-lg-10 {
+    flex-grow: 0;
+    max-width: 83.333333%;
+    flex-basis: 83.333333%;
+  }
+  .CustomMuiGrid-grid-lg-11 {
+    flex-grow: 0;
+    max-width: 91.666667%;
+    flex-basis: 91.666667%;
+  }
+  .CustomMuiGrid-grid-lg-12 {
+    flex-grow: 0;
+    max-width: 100%;
+    flex-basis: 100%;
+  }
+  .CustomMuiGrid-grid-lg-13 {
+    flex-grow: 0;
+    max-width: 92.82%;
+    flex-basis: 92.82%;
+  }
+  .CustomMuiGrid-grid-lg-14 {
+    flex-grow: 0;
+    max-width: 99.96%;
+    flex-basis: 99.96%;
+  }
+}
+/* (1366x768)  */
+@media screen and (max-width: 1366px) {
+  .CustomMuiGrid-grid-lg-1 {
+    flex-grow: 0;
+    max-width: 8.333333%;
+    flex-basis: 8.333333%;
+  }
+  .CustomMuiGrid-grid-lg-2 {
+    flex-grow: 0;
+    max-width: 16.666667%;
+    flex-basis: 16.666667%;
+  }
+  .CustomMuiGrid-grid-lg-3 {
+    flex-grow: 0;
+    max-width: 25%;
+    flex-basis: 25%;
+  }
+  .CustomMuiGrid-grid-lg-4 {
+    flex-grow: 0;
+    max-width: 33.333333%;
+    flex-basis: 33.333333%;
+  }
+  .CustomMuiGrid-grid-lg-5 {
+    flex-grow: 0;
+    max-width: 41.666667%;
+    flex-basis: 41.666667%;
+  }
+  .CustomMuiGrid-grid-lg-6 {
+    flex-grow: 0;
+    max-width: 50%;
+    flex-basis: 0 0 50%;
+  }
+  .CustomMuiGrid-grid-lg-7 {
+    flex-grow: 0;
+    max-width: 58.333333%;
+    flex-basis: 58.333333%;
+  }
+  .CustomMuiGrid-grid-lg-8 {
+    flex-grow: 0;
+    max-width: 66.666667%;
+    flex-basis: 66.666667%;
+  }
+  .CustomMuiGrid-grid-lg-9 {
+    flex-grow: 0;
+    max-width: 75%;
+    flex-basis: 75%;
+  }
+  .CustomMuiGrid-grid-lg-10 {
+    flex-grow: 0;
+    max-width: 83.333333%;
+    flex-basis: 83.333333%;
+  }
+  .CustomMuiGrid-grid-lg-11 {
+    flex-grow: 0;
+    max-width: 91.666667%;
+    flex-basis: 91.666667%;
+  }
+  .CustomMuiGrid-grid-lg-12 {
+    flex-grow: 0;
+    max-width: 100%;
+    flex-basis: 100%;
+  }
+  .CustomMuiGrid-grid-lg-13 {
+    flex-grow: 0;
+    max-width: 92.82%;
+    flex-basis: 92.82%;
+  }
+  .CustomMuiGrid-grid-lg-14 {
+    flex-grow: 0;
+    max-width: 99.96%;
+    flex-basis: 99.96%;
+  }
+}
+/* (1280x1024) */
+@media screen and (max-width: 1280px) {
+}
+
+.Table_BoxLegendRed {
+  clear: both;
+  width: 18px;
+  height: 16px;
+  margin: 6px 4px 6px 0px;
+  border-radius: 3px;
+  background-color: #e73427;
+}
+.table_legend_flex {
+  display: flex;
+}
+.text_center {
+  text-align: center;
+}
+
+/* main dashboard layout */
+.profile_blog {
+  background: linear-gradient(
+    -90deg,
+    rgb(58 91 114),
+    rgb(167 190 211) 120%
+  ) !important;
+  padding: 65px !important;
+}
+.avatar_md {
+  height: 4.5rem;
+  width: 4.5rem;
+}
+.profile_user_wid {
+  margin-top: -57px;
+}
+.img_thumbnail {
+  background-color: #f8f8fb;
+  border: 4px solid #f0f7fd;
+  border-radius: 0.25rem;
+  width: 75px !important;
+  height: 75px !important;
+}
+.details_profile {
+  text-align: center;
+}
+.profile_box {
+  display: flex;
+  justify-content: center;
+}
+.name_profile {
+  font-size: 19px !important;
+  font-weight: 500 !important;
+}
+.profile_right {
+  background: linear-gradient(
+    -90deg,
+    rgb(58 91 114),
+    rgb(167 190 211) 120%
+  ) !important;
+  padding: 115px !important;
+  color: #fff !important;
+}
+.img_box {
+  background: transparent !important ;
+  width: 35% !important;
+  height: 35% !important;
+}
+.img_position {
+  position: relative !important;
+  background: transparent !important;
+  padding-top: calc(35%) !important;
+}
+.details_bottom_block {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+.MuiDrawer-paperAnchorDockedLeft {
+  border-right: none !important;
+  height: 100vh !important;
+}
+.MuiListItem-dense {
+  padding-top: 0px !important;
+  padding-bottom: 0px !important;
+}
+.Component-root-35 {
+  height: 352px !important;
+}
+.height-dash {
+  height: 135px;
+}
+.cardheader-dash {
+  display: flex;
+  justify-content: space-between;
+}
+.cardDash-Font {
+  font-size: 16px !important;
+  font-weight: bold !important;
+}
+.number-dash {
+  font-size: 40px !important;
+  margin-top: 10px !important;
+  color: #6a6565;
+}
+.number-countSuccess {
+  color: rgb(76, 175, 80);
+  font-weight: 600;
+  background: rgba(76, 175, 80, 0.1);
+  padding: 2px;
+  border-radius: 3px;
+  margin-right: 8px;
+}
+.number-countDanger {
+  color: rgb(237 18 18);
+  font-weight: 600;
+  background: rgb(255 226 226);
+  padding: 2px;
+  border-radius: 3px;
+  margin-right: 8px;
+}
+.loader,
+.loader:before,
+.loader:after {
+  border-radius: 50%;
+  width: 2.5em;
+  height: 2.5em;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+  -webkit-animation: load7 1.8s infinite ease-in-out;
+  animation: load7 1.8s infinite ease-in-out;
+}
+.loader {
+  color: #274255;
+  font-size: 8px;
+  margin: 80px auto;
+  position: absolute;
+  text-indent: -9999em;
+  -webkit-transform: translateZ(0);
+  -ms-transform: translateZ(0);
+  transform: translateZ(0);
+  -webkit-animation-delay: -0.16s;
+  animation-delay: -0.16s;
+}
+.loader:before,
+.loader:after {
+  content: '';
+  position: absolute;
+  top: 0;
+}
+.loader:before {
+  left: -3.5em;
+  -webkit-animation-delay: -0.32s;
+  animation-delay: -0.32s;
+}
+.loader:after {
+  left: 3.5em;
+}
+@-webkit-keyframes load7 {
+  0%,
+  80%,
+  100% {
+    box-shadow: 0 2.5em 0 -1.3em;
+  }
+  40% {
+    box-shadow: 0 2.5em 0 0;
+  }
+}
+@keyframes load7 {
+  0%,
+  80%,
+  100% {
+    box-shadow: 0 2.5em 0 -1.3em;
+  }
+  40% {
+    box-shadow: 0 2.5em 0 0;
+  }
+}
